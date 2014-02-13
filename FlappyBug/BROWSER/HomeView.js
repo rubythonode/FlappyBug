@@ -38,11 +38,7 @@ FlappyBug.HomeView = CLASS({
 			H1({
 				childs : [IMG({
 					src : FlappyBug.R('logo.png')
-				}), '\nbuilt with ', A({
-					href : 'http://uppercase.io',
-					target : '_blank',
-					childs : ['UPPERCASE']
-				})]
+				}), '\nbuilt with UPPERCASE']
 			}),
 
 			// html5 canvas start button
@@ -83,7 +79,11 @@ FlappyBug.HomeView = CLASS({
 				childs : [A({
 					href : 'https://github.com/BTNcafe/FlappyBug',
 					target : '_blank',
-					childs : ['SOURCE CODE']
+					childs : ['SOURCE']
+				}), ' · ', A({
+					href : 'http://uppercase.io',
+					target : '_blank',
+					childs : ['UPPERCASE.IO']
 				})]
 			}),
 
