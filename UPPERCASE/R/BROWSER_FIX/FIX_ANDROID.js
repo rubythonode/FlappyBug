@@ -1,0 +1,1 @@
+RUN(function(){"use strict";var loadFixScript=function(name){document.write('<script src="/UPPERCASE/R/BROWSER_FIX/ANDROID/'+name+'.js"><'+"/"+"script>")};global.ANDROID={};/Android\s([0-9\.]*)/.exec(navigator.userAgent);ANDROID.version=parseFloat(RegExp.$1,10);loadFixScript("INFO");if(ANDROID.version<3){loadFixScript("ADD_STYLE")}});

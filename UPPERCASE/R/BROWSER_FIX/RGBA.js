@@ -1,0 +1,1 @@
+OVERRIDE({origin:RGBA,func:function(origin){"use strict";global.RGBA=METHOD({run:function(m,rgba){var f;f=function(n){var hex=n.toString(16);return hex.length===1?"0"+hex:hex};return"#"+f(rgba[0])+f(rgba[1])+f(rgba[2])}})}});

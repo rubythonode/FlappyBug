@@ -1,0 +1,1 @@
+OVERRIDE({origin:IFRAME,func:function(origin){"use strict";global.IFRAME=CLASS({preset:function(){return origin},init:function(cls,inner,self,params){var name=params.name,style=params.style;if(name!==undefined){inner.setEl(document.createElement('<iframe name="'+name+'" />'))}if(style!==undefined){self.addStyle(style)}}})}});

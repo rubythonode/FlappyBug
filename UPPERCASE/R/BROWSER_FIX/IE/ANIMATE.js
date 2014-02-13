@@ -1,0 +1,1 @@
+OVERRIDE({origin:ANIMATE,func:function(origin){"use strict";global.ANIMATE=METHOD({run:function(m,params,callback){var duration=params.duration;if(callback!==undefined&&duration!==undefined){DELAY(function(){callback()})}}})}});

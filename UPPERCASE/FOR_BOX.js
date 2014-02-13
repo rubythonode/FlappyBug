@@ -1,0 +1,1 @@
+global.FOR_BOX=METHOD({run:function(m,func){"use strict";var boxes=BOX.boxes,name;for(name in boxes){if(boxes.hasOwnProperty(name)===true){func(BOX.boxes[name])}}}});

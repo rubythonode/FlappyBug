@@ -1,0 +1,1 @@
+OVERRIDE({origin:INFO,func:function(origin){"use strict";global.INFO=OBJECT({preset:function(){return origin},init:function(cls,inner,self){var checkIsSupportCanvas;self.checkIsSupportCanvas=checkIsSupportCanvas=function(){return false}}})}});
