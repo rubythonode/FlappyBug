@@ -98,8 +98,7 @@ FlappyBug.GameView = CLASS({
 				style : {
 					position : 'absolute',
 					left : 0,
-					top : 0,
-					backgroundColor : '#00C4D3'
+					top : 0
 				}
 			}),
 
@@ -193,6 +192,13 @@ FlappyBug.GameView = CLASS({
 
 		// init stage center.
 		center = USCREEN.LAYER().appendTo(surface);
+
+		// attach sky.
+		USCREEN.LAYER({
+			img : IMG({
+				src : FlappyBug.R_URI('sky.jpg')
+			})
+		}).appendTo(center);
 
 		// create ground.
 		ground = FlappyBug.Game.Ground().appendTo(center);
