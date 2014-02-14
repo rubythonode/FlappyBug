@@ -147,7 +147,7 @@ FlappyBug.GameView = CLASS({
 					zIndex : 999,
 					width : '100%',
 					fontSize : 20,
-					marginTop : 10,
+					marginTop : 10
 				},
 				childs : [0]
 			})],
@@ -270,7 +270,7 @@ FlappyBug.GameView = CLASS({
 						color : '#666',
 						borderRadius : 10
 					},
-					msg : 'HOME',
+					title : 'HOME',
 					onTap : function() {
 						FlappyBug.GO('');
 					}
@@ -279,7 +279,7 @@ FlappyBug.GameView = CLASS({
 				// restart button
 				UUI.BUTTON({
 					style : buttonStyle,
-					msg : 'RESTART',
+					title : 'RESTART',
 					onTap : function() {
 						FlappyBug.GO('Restart');
 					}

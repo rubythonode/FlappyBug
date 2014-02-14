@@ -50,7 +50,7 @@ FlappyBug.HomeView = CLASS({
 					color : '#666',
 					borderRadius : 10
 				},
-				msg : 'CANVAS START',
+				title : 'CANVAS START',
 				onTap : function() {
 					BROWSER_CONFIG.USCREEN = {
 						isLayerOnCanvas : true
@@ -62,7 +62,7 @@ FlappyBug.HomeView = CLASS({
 			// dom start button
 			UUI.BUTTON({
 				style : buttonStyle,
-				msg : 'DOM START',
+				title : 'DOM START',
 				onTap : function() {
 					BROWSER_CONFIG.USCREEN = {
 						isLayerOnCanvas : false
