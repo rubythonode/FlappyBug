@@ -171,7 +171,7 @@ FlappyBug.GameView = CLASS({
 
 		// show start panel.
 		ANIMATE({
-			dom : startPanel.getDom(),
+			node : startPanel,
 			keyframes : KEYFRAMES({
 				from : {
 					transform : 'scaleY(0)'
@@ -303,7 +303,7 @@ FlappyBug.GameView = CLASS({
 
 			// hide end modal.
 			ANIMATE({
-				dom : endModal.getDom(),
+				node : endModal,
 				keyframes : KEYFRAMES({
 					from : {
 						transform : 'scaleY(0)'
@@ -322,7 +322,7 @@ FlappyBug.GameView = CLASS({
 
 			// hide start panel.
 			ANIMATE({
-				dom : startPanel.getDom(),
+				node : startPanel,
 				keyframes : KEYFRAMES({
 					from : {
 						transform : 'scaleY(100%)'
@@ -426,7 +426,7 @@ FlappyBug.GameView = CLASS({
 			if (endModal !== undefined) {
 
 				ANIMATE({
-					dom : endModal.getDom(),
+					node : endModal,
 					keyframes : KEYFRAMES({
 						from : {
 							transform : 'scaleY(100%)'

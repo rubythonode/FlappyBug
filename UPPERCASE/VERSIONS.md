@@ -1,3 +1,11 @@
+1.2.5 (2014. 2. 16)
+- IE8의 IE7 모드에서 hashchange 이벤트가 발생하지 않는 문제 해결
+- TH 및 TR에 colspan, rowspan 추가
+- touch-callout, user-select 스타일 지원
+- ANIMATE opacity 지원
+- 다른 언어 지원 (OTHER_LANGS)
+- Android/IE setLang 버그 해결
+
 1.2.4.2 (2014. 2. 13)
 - 기본 커넥션 접속 제한 시간 10초에서 5초로 단축
 - LOOP 생성시 하나의 func만 넘어오면 interval로 지정

@@ -98,7 +98,7 @@ FlappyBug.HomeView = CLASS({
 		});
 
 		ANIMATE({
-			dom : modal.getDom(),
+			node : modal,
 			keyframes : KEYFRAMES({
 				from : {
 					transform : 'scaleY(0)'
@@ -117,7 +117,7 @@ FlappyBug.HomeView = CLASS({
 			TITLE(CONFIG.defaultTitle);
 
 			ANIMATE({
-				dom : modal.getDom(),
+				node : modal,
 				keyframes : KEYFRAMES({
 					from : {
 						transform : 'scaleY(100%)'
