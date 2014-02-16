@@ -6,7 +6,7 @@ UPPERCASE는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 어
 
 Version
 -------
-1.2.4
+1.2.5.1
 
 Based On
 --------

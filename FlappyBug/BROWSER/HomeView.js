@@ -32,11 +32,11 @@ FlappyBug.HomeView = CLASS({
 				paddingBottom : 15,
 				textAlign : 'center'
 			},
-			childs : [
+			children : [
 
 			// title
 			H1({
-				childs : [IMG({
+				children : [IMG({
 					src : FlappyBug.R('logo.png')
 				}), '\nbuilt with UPPERCASE']
 			}),
@@ -76,14 +76,14 @@ FlappyBug.HomeView = CLASS({
 				style : {
 					marginTop : 10
 				},
-				childs : [A({
+				children : [A({
 					href : 'https://github.com/BTNcafe/FlappyBug',
 					target : '_blank',
-					childs : ['SOURCE']
+					children : ['SOURCE']
 				}), ' · ', A({
 					href : 'http://uppercase.io',
 					target : '_blank',
-					childs : ['UPPERCASE.IO']
+					children : ['UPPERCASE.IO']
 				})]
 			}),
 

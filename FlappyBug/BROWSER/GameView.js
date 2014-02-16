@@ -91,7 +91,7 @@ FlappyBug.GameView = CLASS({
 				width : '100%',
 				height : '100%'
 			},
-			childs : [
+			children : [
 
 			// game surface
 			surface = USCREEN.SURFACE({
@@ -111,7 +111,7 @@ FlappyBug.GameView = CLASS({
 					width : '100%',
 					height : '100%'
 				},
-				childs : [UUI.PANEL({
+				children : [UUI.PANEL({
 					wrapperStyle : {
 						width : 150,
 						margin : 'auto',
@@ -121,18 +121,18 @@ FlappyBug.GameView = CLASS({
 					contentStyle : {
 						padding : 10
 					},
-					childs : [P({
+					children : [P({
 						style : {
 							fontSize : 12
 						},
-						childs : [BROWSER_CONFIG.USCREEN === undefined || BROWSER_CONFIG.USCREEN.isLayerOnCanvas === true ? 'HTML5 Canvas Mode' : 'DOM Mode']
+						children : [BROWSER_CONFIG.USCREEN === undefined || BROWSER_CONFIG.USCREEN.isLayerOnCanvas === true ? 'HTML5 Canvas Mode' : 'DOM Mode']
 					}), P({
-						childs : ['BEST SCORE: ', (scoreStore.get('best') === undefined ? 0 : scoreStore.get('best'))]
+						children : ['BEST SCORE: ', (scoreStore.get('best') === undefined ? 0 : scoreStore.get('best'))]
 					}), P({
 						style : {
 							fontSize : 12
 						},
-						childs : ['TOUCH or\nSPACE KEY/CLICK\nto START!']
+						children : ['TOUCH or\nSPACE KEY/CLICK\nto START!']
 					})]
 				})]
 			}),
@@ -149,7 +149,7 @@ FlappyBug.GameView = CLASS({
 					fontSize : 20,
 					marginTop : 10
 				},
-				childs : [0]
+				children : [0]
 			})],
 
 			on : {
@@ -252,13 +252,13 @@ FlappyBug.GameView = CLASS({
 					padding : 10
 				},
 				isCannotClose : true,
-				childs : [
+				children : [
 
 				// scores
 				P({
-					childs : ['YOUR SCORE: ', passPipeCount]
+					children : ['YOUR SCORE: ', passPipeCount]
 				}), P({
-					childs : ['BEST SCORE: ', scoreStore.get('best')]
+					children : ['BEST SCORE: ', scoreStore.get('best')]
 				}),
 
 				// home button
@@ -288,7 +288,7 @@ FlappyBug.GameView = CLASS({
 						marginTop : 10,
 						fontSize : 12
 					},
-					childs : ['or SPACE KEY to RESTART.']
+					children : ['or SPACE KEY to RESTART.']
 				}),
 
 				// facebook like button
@@ -348,7 +348,7 @@ FlappyBug.GameView = CLASS({
 
 					passPipeCount += 1;
 
-					countPanel.removeAllChilds();
+					countPanel.removeAllChildren();
 					countPanel.append(passPipeCount);
 
 				}).appendTo(center));
