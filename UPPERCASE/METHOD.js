@@ -1,1 +1,1 @@
-global.METHOD=function(funcs){"use strict";var statics=funcs.statics,run=funcs.run,m;m=function(params,funcs){return run(m,params,funcs)};m.type=METHOD;if(statics!==undefined){statics(m)}return m};
+global.METHOD=function(t){"use strict";var n,r=t.statics,u=t.run;return n=function(t,r){return u(n,t,r)},n.type=METHOD,void 0!==r&&r(n),n};

@@ -1,1 +1,1 @@
-OVERRIDE({origin:KEYFRAMES,func:function(origin){"use strict";global.KEYFRAMES=CLASS({init:function(){}})}});
+OVERRIDE({origin:KEYFRAMES,func:function(){"use strict";global.KEYFRAMES=CLASS({init:function(){}})}});

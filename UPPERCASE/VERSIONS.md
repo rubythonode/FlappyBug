@@ -1,5 +1,8 @@
-1.2.5.1 (2014. 2. 17)
+1.2.6 (2014. 2. 17)
+- backgroundSize 추가
+- tap event bubbling 버그 개선 
 - childs (childDoms) -> children 변경
+- js 압축 more
 
 1.2.5 (2014. 2. 16)
 - IE8의 IE7 모드에서 hashchange 이벤트가 발생하지 않는 문제 해결

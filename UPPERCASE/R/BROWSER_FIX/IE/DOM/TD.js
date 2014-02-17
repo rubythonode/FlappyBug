@@ -1,1 +1,1 @@
-OVERRIDE({origin:TD,func:function(origin){"use strict";global.TD=CLASS({preset:function(){return origin},init:function(cls,inner,self){if(IE.version<=8){ADD_STYLE({dom:self,style:{verticalAlign:"middle"}})}}})}});
+OVERRIDE({origin:TD,func:function(i){"use strict";global.TD=CLASS({preset:function(){return i},init:function(i,n,t){IE.version<=8&&ADD_STYLE({dom:t,style:{verticalAlign:"middle"}})}})}});
