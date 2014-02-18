@@ -1,3 +1,8 @@
+1.2.7 (2014. 2. 18)
+- MODEL에 onRemove 추가
+- CONFIG isNotUsingDB -> isNotUseDB, isNotNeedDBAuth -> isNotRequireDBAuth, isSupportHD -> isSupportingHD
+- BROWSER_CONFIG에 function을 포함할 수 있도록 개선
+
 1.2.6 (2014. 2. 17)
 - backgroundSize 추가
 - tap event bubbling 버그 개선 

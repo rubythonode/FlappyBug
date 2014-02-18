@@ -6,7 +6,7 @@ UPPERCASE는 BTNcafe에서 개발한 Server-Side부터 Client-Side까지 웹 어
 
 Version
 -------
-1.2.6
+1.2.7
 
 Based On
 --------
@@ -22,9 +22,14 @@ Server-side:
 - Node.js 0.10
 - MongoDB 2.0.6
 - ImageMagick 6.8.6-3
+ 
+License
+-------
+UPPERCASE의 License는 이하 문서를 따릅니다.
+https://github.com/BTNcafe/UPPERCASE/blob/master/LICENSE.md
 
-Bigtown, 어려운 게임 등의 서비스에서 내부적으로 사용되고 있습니다.
-
+Contact
+-------
 - Official Web Site: http://UPPERCASE.IO
 - Official Web Site GitHub repository: https://github.com/BTNcafe/UPPERCASE.IO
 - UDOC: https://github.com/BTNcafe/UPPERCASE.IO/tree/master/UDOC
