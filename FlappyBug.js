@@ -10,7 +10,7 @@ BOOT({
 		}
 	},
 	SERVER_CONFIG : {
-		isNotUseDB : true
+		isNotUsingDB : true
 	},
 	BROWSER_CONFIG : {
 		isSupportingHD : false
