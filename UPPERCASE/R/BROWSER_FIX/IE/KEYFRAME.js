@@ -1,1 +1,1 @@
-OVERRIDE(KEYFRAMES,function(){"use strict";global.KEYFRAMES=CLASS({init:function(){}})});
+OVERRIDE(KEYFRAMES,function(){"use strict";global.KEYFRAMES=KEYFRAMES=CLASS({init:function(){}})});

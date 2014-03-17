@@ -1,1 +1,1 @@
-OVERRIDE(INFO,function(n){"use strict";global.INFO=OBJECT({preset:function(){return n},init:function(n,t,r){var u;r.checkIsSupportCanvas=u=function(){return!1}}})});
+OVERRIDE(INFO,function(n){"use strict";global.INFO=INFO=OBJECT({preset:function(){return n},init:function(n,t,r){var u;r.checkIsSupportCanvas=u=function(){return!1}}})});
